@@ -1,4 +1,8 @@
 // for of
+/*
+for (const num of arr) { ... }
+This is a for...of loop, which is used to iterate over iterable objects (like arrays, strings, etc.). It's a more modern and concise way to loop through arrays in JavaScript compared to traditional for loops. 
+ */
 
 // ["", "", ""]
 // [{}, {}, {}]
@@ -30,7 +34,7 @@ for (const [key, value] of map) {
 }
 
 const myObject = {
-    game1: 'NFS',
+    game1: 'GTA',
     game2: 'Spiderman'
 }
 
